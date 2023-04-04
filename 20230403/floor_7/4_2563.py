@@ -11,4 +11,3 @@ for i in range(N):
 for i in zero_square:
     counter += i.count(1)
 print(counter)
-
