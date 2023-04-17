@@ -10,7 +10,7 @@ def is_prime(x):
             return False
     return True
 
-# 소수인지 검사해서 소수면 1출력, 아니면 + 1
+# 소수인지 검사해서 소수면 출력, 아니면 + 1
 T = int(f())
 for i in range(T):
     z = int(f())
