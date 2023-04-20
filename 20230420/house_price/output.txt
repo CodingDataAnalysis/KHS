@@ -1,0 +1,464 @@
+=========================
+scaler: Not Scaled
+model: LinearRegression()
+R^2: 0.47694148176398465
+Adjusted R^2: 0.47150804840280713
+MAE: 40639.31479025751
+MSE: 3298819492.28062
+RMSE: 57435.35054546651
+=========================
+used features: Index(['MiscVal', '3SsnPorch', 'PoolArea', 'ScreenPorch', 'BsmtHalfBath',
+       'EnclosedPorch', 'OpenPorchSF', 'MasVnrArea', 'WoodDeckSF', 'LotArea',
+       'Fireplaces', 'HalfBath', 'BsmtFullBath', 'MSSubClass', 'MoSold'],
+      dtype='object')
+scaler: Not Scaled
+model: LinearRegression()
+R^2: 0.47694148176398465
+Adjusted R^2: 0.47150804840280713
+MAE: 40639.31479025751
+MSE: 3298819492.28062
+RMSE: 57435.35054546651
+=========================
+used features: ['MiscVal', '3SsnPorch', 'PoolArea', 'ScreenPorch', 'BsmtHalfBath', 'EnclosedPorch', 'OpenPorchSF', 'MasVnrArea', 'WoodDeckSF', 'LotArea', 'Fireplaces', 'HalfBath', 'BsmtFullBath', 'MSSubClass', 'MoSold']
+scaler : Not Scaled
+model : Lasso(alpha=0.5, random_state=369)
+R^2: 0.47694148072770004
+Adjusted R^2: 0.4715080473557579
+MAE: 40639.26891855264
+MSE: 3298819498.816248
+RMSE: 57435.35060236203
+=========================
+used features: ['MiscVal', '3SsnPorch', 'PoolArea', 'ScreenPorch', 'BsmtHalfBath', 'EnclosedPorch', 'OpenPorchSF', 'MasVnrArea', 'WoodDeckSF', 'LotArea', 'Fireplaces', 'HalfBath', 'BsmtFullBath', 'MSSubClass', 'MoSold']
+scaler : Not Scaled
+model : Ridge(alpha=0.25)
+R^2: 0.4769414537469737
+Adjusted R^2: 0.4715080200947608
+MAE: 40639.06464243526
+MSE: 3298819668.9779844
+RMSE: 57435.3520836948
+=========================
+used features: ['MiscVal', '3SsnPorch', 'PoolArea', 'ScreenPorch', 'BsmtHalfBath', 'EnclosedPorch', 'OpenPorchSF', 'MasVnrArea', 'WoodDeckSF', 'LotArea', 'Fireplaces', 'HalfBath', 'BsmtFullBath', 'MSSubClass', 'MoSold']
+scaler : Not Scaled
+model : RandomForestRegressor(max_depth=15, n_estimators=500, oob_score=True,
+                      random_state=369)
+R^2: 0.9312711131690941
+Adjusted R^2: 0.9305571704388561
+MAE: 13996.647351296639
+MSE: 433458558.9489211
+RMSE: 20819.66759938595
+OOB Score: 0.522972393301941
+=========================
+used features: Index(['MoSold', 'YrSold', 'MSSubClass', 'LotFrontage', 'LotArea',
+       'OverallQual', 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'MasVnrArea',
+       'BsmtFinSF1', 'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF', '1stFlrSF',
+       '2ndFlrSF', 'LowQualFinSF', 'GrLivArea', 'BsmtFullBath', 'BsmtHalfBath',
+       'FullBath', 'HalfBath', 'BedroomAbvGr', 'KitchenAbvGr', 'TotRmsAbvGrd',
+       'Fireplaces', 'GarageYrBlt', 'GarageCars', 'GarageArea', 'WoodDeckSF',
+       'OpenPorchSF', 'EnclosedPorch', '3SsnPorch', 'ScreenPorch', 'PoolArea',
+       'MiscVal'],
+      dtype='object')
+scaler: StandardScaler()
+model: LinearRegression()
+R^2: 0.7891524992367374
+Adjusted R^2: 0.785026901737526
+MAE: 24030.60821846603
+MSE: 1329770611.0631726
+RMSE: 36466.019950951224
+=========================
+used features: Index(['MoSold', 'YrSold', 'MSSubClass', 'LotFrontage', 'LotArea',
+       'OverallQual', 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'MasVnrArea',
+       'BsmtFinSF1', 'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF', '1stFlrSF',
+       '2ndFlrSF', 'LowQualFinSF', 'GrLivArea', 'BsmtFullBath', 'BsmtHalfBath',
+       'FullBath', 'HalfBath', 'BedroomAbvGr', 'KitchenAbvGr', 'TotRmsAbvGrd',
+       'Fireplaces', 'GarageYrBlt', 'GarageCars', 'GarageArea', 'WoodDeckSF',
+       'OpenPorchSF', 'EnclosedPorch', '3SsnPorch', 'ScreenPorch', 'PoolArea',
+       'MiscVal'],
+      dtype='object')
+scaler : StandardScaler()
+model : Lasso(alpha=0.5, random_state=369)
+R^2: 0.7891524982477133
+Adjusted R^2: 0.78502690072915
+MAE: 24030.438125378536
+MSE: 1329770617.300738
+RMSE: 36466.02003647695
+=========================
+used features: Index(['MoSold', 'YrSold', 'MSSubClass', 'LotFrontage', 'LotArea',
+       'OverallQual', 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'MasVnrArea',
+       'BsmtFinSF1', 'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF', '1stFlrSF',
+       '2ndFlrSF', 'LowQualFinSF', 'GrLivArea', 'BsmtFullBath', 'BsmtHalfBath',
+       'FullBath', 'HalfBath', 'BedroomAbvGr', 'KitchenAbvGr', 'TotRmsAbvGrd',
+       'Fireplaces', 'GarageYrBlt', 'GarageCars', 'GarageArea', 'WoodDeckSF',
+       'OpenPorchSF', 'EnclosedPorch', '3SsnPorch', 'ScreenPorch', 'PoolArea',
+       'MiscVal'],
+      dtype='object')
+scaler : StandardScaler()
+model : Ridge(alpha=0.25)
+R^2: 0.7891524857481973
+Adjusted R^2: 0.7850268879850593
+MAE: 24029.81606022797
+MSE: 1329770696.1325426
+RMSE: 36466.02111737093
+=========================
+used features: Index(['MoSold', 'YrSold', 'MSSubClass', 'LotFrontage', 'LotArea',
+       'OverallQual', 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'MasVnrArea',
+       'BsmtFinSF1', 'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF', '1stFlrSF',
+       '2ndFlrSF', 'LowQualFinSF', 'GrLivArea', 'BsmtFullBath', 'BsmtHalfBath',
+       'FullBath', 'HalfBath', 'BedroomAbvGr', 'KitchenAbvGr', 'TotRmsAbvGrd',
+       'Fireplaces', 'GarageYrBlt', 'GarageCars', 'GarageArea', 'WoodDeckSF',
+       'OpenPorchSF', 'EnclosedPorch', '3SsnPorch', 'ScreenPorch', 'PoolArea',
+       'MiscVal'],
+      dtype='object')
+scaler : StandardScaler()
+model : ElasticNet(alpha=0.1)
+R^2: 0.7882803559741085
+Adjusted R^2: 0.7841376934774453
+MAE: 23873.625219970258
+MSE: 1335271034.2367094
+RMSE: 36541.36059640787
+=========================
+used features: Index(['MoSold', 'YrSold', 'MSSubClass', 'LotFrontage', 'LotArea',
+       'OverallQual', 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'MasVnrArea',
+       'BsmtFinSF1', 'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF', '1stFlrSF',
+       '2ndFlrSF', 'LowQualFinSF', 'GrLivArea', 'BsmtFullBath', 'BsmtHalfBath',
+       'FullBath', 'HalfBath', 'BedroomAbvGr', 'KitchenAbvGr', 'TotRmsAbvGrd',
+       'Fireplaces', 'GarageYrBlt', 'GarageCars', 'GarageArea', 'WoodDeckSF',
+       'OpenPorchSF', 'EnclosedPorch', '3SsnPorch', 'ScreenPorch', 'PoolArea',
+       'MiscVal'],
+      dtype='object')
+scaler : StandardScaler()
+model : RandomForestRegressor(max_depth=15, n_estimators=500, oob_score=True,
+                      random_state=369)
+R^2: 0.9742893354166583
+Adjusted R^2: 0.9737862616162855
+MAE: 7771.04873697139
+MSE: 162151725.91596383
+RMSE: 12733.881023315862
+OOB Score: 0.8155011345703511
+=========================
+used features: Index(['MoSold', 'YrSold', 'MSSubClass', 'LotFrontage', 'LotArea',
+       'OverallQual', 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'MasVnrArea',
+       'BsmtFinSF1', 'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF', '1stFlrSF',
+       '2ndFlrSF', 'LowQualFinSF', 'GrLivArea', 'BsmtFullBath', 'BsmtHalfBath',
+       'FullBath', 'HalfBath', 'BedroomAbvGr', 'KitchenAbvGr', 'TotRmsAbvGrd',
+       'Fireplaces', 'GarageYrBlt', 'GarageCars', 'GarageArea', 'WoodDeckSF',
+       'OpenPorchSF', 'EnclosedPorch', '3SsnPorch', 'ScreenPorch', 'PoolArea',
+       'MiscVal'],
+      dtype='object')
+scaler: StandardScaler()
+model: LinearRegression()
+R^2: 0.8275990093303911
+Adjusted R^2: 0.8194306924716731
+MAE: 20351.325360569357
+MSE: 1087296600.0580006
+RMSE: 32974.180809506106
+=========================
+used features: Index(['MoSold', 'YrSold', 'MSSubClass', 'LotFrontage', 'LotArea',
+       'OverallQual', 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'MasVnrArea',
+       'BsmtFinSF1', 'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF', '1stFlrSF',
+       '2ndFlrSF', 'LowQualFinSF', 'GrLivArea', 'BsmtFullBath', 'BsmtHalfBath',
+       'FullBath', 'HalfBath', 'BedroomAbvGr', 'KitchenAbvGr', 'TotRmsAbvGrd',
+       'Fireplaces', 'GarageYrBlt', 'GarageCars', 'GarageArea', 'WoodDeckSF',
+       'OpenPorchSF', 'EnclosedPorch', '3SsnPorch', 'ScreenPorch', 'PoolArea',
+       'MiscVal', 'MSZoning_C (all)', 'MSZoning_FV', 'MSZoning_RH',
+       'MSZoning_RL', 'MSZoning_RM', 'Street_Grvl', 'Street_Pave',
+       'LotShape_IR1', 'LotShape_IR2', 'LotShape_IR3', 'LotShape_Reg',
+       'LandContour_Bnk', 'LandContour_HLS', 'LandContour_Low',
+       'LandContour_Lvl', 'SaleType_COD', 'SaleType_CWD', 'SaleType_Con',
+       'SaleType_ConLD', 'SaleType_ConLI', 'SaleType_ConLw', 'SaleType_New',
+       'SaleType_Oth', 'SaleType_WD', 'SaleCondition_Abnorml',
+       'SaleCondition_AdjLand', 'SaleCondition_Alloca', 'SaleCondition_Family',
+       'SaleCondition_Normal', 'SaleCondition_Partial'],
+      dtype='object')
+scaler: StandardScaler()
+model: LinearRegression()
+R^2: 0.8275990093303911
+Adjusted R^2: 0.8194306924716731
+MAE: 20351.325360569357
+MSE: 1087296600.0580006
+RMSE: 32974.180809506106
+=========================
+used features: Index(['MoSold', 'YrSold', 'MSSubClass', 'LotFrontage', 'LotArea',
+       'OverallQual', 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'MasVnrArea',
+       'BsmtFinSF1', 'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF', '1stFlrSF',
+       '2ndFlrSF', 'LowQualFinSF', 'GrLivArea', 'BsmtFullBath', 'BsmtHalfBath',
+       'FullBath', 'HalfBath', 'BedroomAbvGr', 'KitchenAbvGr', 'TotRmsAbvGrd',
+       'Fireplaces', 'GarageYrBlt', 'GarageCars', 'GarageArea', 'WoodDeckSF',
+       'OpenPorchSF', 'EnclosedPorch', '3SsnPorch', 'ScreenPorch', 'PoolArea',
+       'MiscVal', 'MSZoning_C (all)', 'MSZoning_FV', 'MSZoning_RH',
+       'MSZoning_RL', 'MSZoning_RM', 'Street_Grvl', 'Street_Pave',
+       'LotShape_IR1', 'LotShape_IR2', 'LotShape_IR3', 'LotShape_Reg',
+       'LandContour_Bnk', 'LandContour_HLS', 'LandContour_Low',
+       'LandContour_Lvl', 'SaleType_COD', 'SaleType_CWD', 'SaleType_Con',
+       'SaleType_ConLD', 'SaleType_ConLI', 'SaleType_ConLw', 'SaleType_New',
+       'SaleType_Oth', 'SaleType_WD', 'SaleCondition_Abnorml',
+       'SaleCondition_AdjLand', 'SaleCondition_Alloca', 'SaleCondition_Family',
+       'SaleCondition_Normal', 'SaleCondition_Partial'],
+      dtype='object')
+scaler : StandardScaler()
+model : RandomForestRegressor(max_depth=15, n_estimators=500, oob_score=True,
+                      random_state=369)
+R^2: 0.9815751192307933
+Adjusted R^2: 0.9807021528770478
+MAE: 6537.861305542642
+MSE: 116201827.72165425
+RMSE: 10779.69515903183
+OOB Score: 0.8654952051072635
+=========================
+used features: Index(['MoSold', 'YrSold', 'MSSubClass', 'LotFrontage', 'LotArea',
+       'OverallQual', 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'MasVnrArea',
+       'BsmtFinSF1', 'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF', '1stFlrSF',
+       '2ndFlrSF', 'LowQualFinSF', 'GrLivArea', 'BsmtFullBath', 'BsmtHalfBath',
+       'FullBath', 'HalfBath', 'BedroomAbvGr', 'KitchenAbvGr', 'TotRmsAbvGrd',
+       'Fireplaces', 'GarageYrBlt', 'GarageCars', 'GarageArea', 'WoodDeckSF',
+       'OpenPorchSF', 'EnclosedPorch', '3SsnPorch', 'ScreenPorch', 'PoolArea',
+       'MiscVal', 'MSZoning_C (all)', 'MSZoning_FV', 'MSZoning_RH',
+       'MSZoning_RL', 'MSZoning_RM', 'Street_Grvl', 'Street_Pave',
+       'LotShape_IR1', 'LotShape_IR2', 'LotShape_IR3', 'LotShape_Reg',
+       'LandContour_Bnk', 'LandContour_HLS', 'LandContour_Low',
+       'LandContour_Lvl', 'SaleType_COD', 'SaleType_CWD', 'SaleType_Con',
+       'SaleType_ConLD', 'SaleType_ConLI', 'SaleType_ConLw', 'SaleType_New',
+       'SaleType_Oth', 'SaleType_WD', 'SaleCondition_Abnorml',
+       'SaleCondition_AdjLand', 'SaleCondition_Alloca', 'SaleCondition_Family',
+       'SaleCondition_Normal', 'SaleCondition_Partial'],
+      dtype='object')
+scaler : StandardScaler()
+model : RandomForestRegressor(max_depth=10, n_estimators=150, oob_score=True,
+                      random_state=369)
+R^2: 0.9750941634533159
+Adjusted R^2: 0.9739141309966891
+MAE: 8423.683727766615
+MSE: 157075845.64120257
+RMSE: 12532.990291275366
+OOB Score: 0.854828513417717
+=========================
+used features: Index(['MoSold', 'YrSold', 'MSSubClass', 'LotFrontage', 'LotArea',
+       'OverallQual', 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'MasVnrArea',
+       'BsmtFinSF1', 'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF', '1stFlrSF',
+       '2ndFlrSF', 'LowQualFinSF', 'GrLivArea', 'BsmtFullBath', 'BsmtHalfBath',
+       'FullBath', 'HalfBath', 'BedroomAbvGr', 'KitchenAbvGr', 'TotRmsAbvGrd',
+       'Fireplaces', 'GarageYrBlt', 'GarageCars', 'GarageArea', 'WoodDeckSF',
+       'OpenPorchSF', 'EnclosedPorch', '3SsnPorch', 'ScreenPorch', 'PoolArea',
+       'MiscVal', 'MSZoning_C (all)', 'MSZoning_FV', 'MSZoning_RH',
+       'MSZoning_RL', 'MSZoning_RM', 'Street_Grvl', 'Street_Pave',
+       'LotShape_IR1', 'LotShape_IR2', 'LotShape_IR3', 'LotShape_Reg',
+       'LandContour_Bnk', 'LandContour_HLS', 'LandContour_Low',
+       'LandContour_Lvl', 'SaleType_COD', 'SaleType_CWD', 'SaleType_Con',
+       'SaleType_ConLD', 'SaleType_ConLI', 'SaleType_ConLw', 'SaleType_New',
+       'SaleType_Oth', 'SaleType_WD', 'SaleCondition_Abnorml',
+       'SaleCondition_AdjLand', 'SaleCondition_Alloca', 'SaleCondition_Family',
+       'SaleCondition_Normal', 'SaleCondition_Partial'],
+      dtype='object')
+scaler : StandardScaler()
+model : RandomForestRegressor(max_depth=9, oob_score=True, random_state=369)
+R^2: 0.9716952705611186
+Adjusted R^2: 0.9703541993888528
+MAE: 9389.483278241289
+MSE: 178511944.53653762
+RMSE: 13360.836221454763
+OOB Score: 0.858278017402337
+=========================
+used features: Index(['MoSold', 'YrSold', 'MSSubClass', 'LotFrontage', 'LotArea',
+       'OverallQual', 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'MasVnrArea',
+       'BsmtFinSF1', 'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF', '1stFlrSF',
+       '2ndFlrSF', 'LowQualFinSF', 'GrLivArea', 'BsmtFullBath', 'BsmtHalfBath',
+       'FullBath', 'HalfBath', 'BedroomAbvGr', 'KitchenAbvGr', 'TotRmsAbvGrd',
+       'Fireplaces', 'GarageYrBlt', 'GarageCars', 'GarageArea', 'WoodDeckSF',
+       'OpenPorchSF', 'EnclosedPorch', '3SsnPorch', 'ScreenPorch', 'PoolArea',
+       'MiscVal', 'MSZoning_C (all)', 'MSZoning_FV', 'MSZoning_RH',
+       'MSZoning_RL', 'MSZoning_RM', 'Street_Grvl', 'Street_Pave',
+       'LotShape_IR1', 'LotShape_IR2', 'LotShape_IR3', 'LotShape_Reg',
+       'LandContour_Bnk', 'LandContour_HLS', 'LandContour_Low',
+       'LandContour_Lvl', 'SaleType_COD', 'SaleType_CWD', 'SaleType_Con',
+       'SaleType_ConLD', 'SaleType_ConLI', 'SaleType_ConLw', 'SaleType_New',
+       'SaleType_Oth', 'SaleType_WD', 'SaleCondition_Abnorml',
+       'SaleCondition_AdjLand', 'SaleCondition_Alloca', 'SaleCondition_Family',
+       'SaleCondition_Normal', 'SaleCondition_Partial'],
+      dtype='object')
+scaler: MinMaxScaler()
+model: LinearRegression()
+R^2: 0.8276048783211662
+Adjusted R^2: 0.8194368395337986
+MAE: 20350.98082191781
+MSE: 1087259585.5739727
+RMSE: 32973.61954008041
+=========================
+used features: Index(['MoSold', 'YrSold', 'MSSubClass', 'LotFrontage', 'LotArea',
+       'OverallQual', 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'MasVnrArea',
+       'BsmtFinSF1', 'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF', '1stFlrSF',
+       '2ndFlrSF', 'LowQualFinSF', 'GrLivArea', 'BsmtFullBath', 'BsmtHalfBath',
+       'FullBath', 'HalfBath', 'BedroomAbvGr', 'KitchenAbvGr', 'TotRmsAbvGrd',
+       'Fireplaces', 'GarageYrBlt', 'GarageCars', 'GarageArea', 'WoodDeckSF',
+       'OpenPorchSF', 'EnclosedPorch', '3SsnPorch', 'ScreenPorch', 'PoolArea',
+       'MiscVal', 'MSZoning_C (all)', 'MSZoning_FV', 'MSZoning_RH',
+       'MSZoning_RL', 'MSZoning_RM', 'Street_Grvl', 'Street_Pave',
+       'LotShape_IR1', 'LotShape_IR2', 'LotShape_IR3', 'LotShape_Reg',
+       'LandContour_Bnk', 'LandContour_HLS', 'LandContour_Low',
+       'LandContour_Lvl', 'SaleType_COD', 'SaleType_CWD', 'SaleType_Con',
+       'SaleType_ConLD', 'SaleType_ConLI', 'SaleType_ConLw', 'SaleType_New',
+       'SaleType_Oth', 'SaleType_WD', 'SaleCondition_Abnorml',
+       'SaleCondition_AdjLand', 'SaleCondition_Alloca', 'SaleCondition_Family',
+       'SaleCondition_Normal', 'SaleCondition_Partial'],
+      dtype='object')
+scaler : MinMaxScaler()
+model : Lasso(alpha=0.5, random_state=369)
+R^2: 0.8275985726209827
+Adjusted R^2: 0.8194302350710795
+MAE: 20348.684611181237
+MSE: 1087299354.2919123
+RMSE: 32974.22257297224
+=========================
+used features: Index(['MoSold', 'YrSold', 'MSSubClass', 'LotFrontage', 'LotArea',
+       'OverallQual', 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'MasVnrArea',
+       'BsmtFinSF1', 'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF', '1stFlrSF',
+       '2ndFlrSF', 'LowQualFinSF', 'GrLivArea', 'BsmtFullBath', 'BsmtHalfBath',
+       'FullBath', 'HalfBath', 'BedroomAbvGr', 'KitchenAbvGr', 'TotRmsAbvGrd',
+       'Fireplaces', 'GarageYrBlt', 'GarageCars', 'GarageArea', 'WoodDeckSF',
+       'OpenPorchSF', 'EnclosedPorch', '3SsnPorch', 'ScreenPorch', 'PoolArea',
+       'MiscVal', 'MSZoning_C (all)', 'MSZoning_FV', 'MSZoning_RH',
+       'MSZoning_RL', 'MSZoning_RM', 'Street_Grvl', 'Street_Pave',
+       'LotShape_IR1', 'LotShape_IR2', 'LotShape_IR3', 'LotShape_Reg',
+       'LandContour_Bnk', 'LandContour_HLS', 'LandContour_Low',
+       'LandContour_Lvl', 'SaleType_COD', 'SaleType_CWD', 'SaleType_Con',
+       'SaleType_ConLD', 'SaleType_ConLI', 'SaleType_ConLw', 'SaleType_New',
+       'SaleType_Oth', 'SaleType_WD', 'SaleCondition_Abnorml',
+       'SaleCondition_AdjLand', 'SaleCondition_Alloca', 'SaleCondition_Family',
+       'SaleCondition_Normal', 'SaleCondition_Partial'],
+      dtype='object')
+scaler : MinMaxScaler()
+model : Ridge(alpha=0.25)
+R^2: 0.8275204259441424
+Adjusted R^2: 0.8193483858237645
+MAE: 20345.428435052294
+MSE: 1087792208.8613918
+RMSE: 32981.69505743135
+=========================
+used features: Index(['MoSold', 'YrSold', 'MSSubClass', 'LotFrontage', 'LotArea',
+       'OverallQual', 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'MasVnrArea',
+       'BsmtFinSF1', 'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF', '1stFlrSF',
+       '2ndFlrSF', 'LowQualFinSF', 'GrLivArea', 'BsmtFullBath', 'BsmtHalfBath',
+       'FullBath', 'HalfBath', 'BedroomAbvGr', 'KitchenAbvGr', 'TotRmsAbvGrd',
+       'Fireplaces', 'GarageYrBlt', 'GarageCars', 'GarageArea', 'WoodDeckSF',
+       'OpenPorchSF', 'EnclosedPorch', '3SsnPorch', 'ScreenPorch', 'PoolArea',
+       'MiscVal', 'MSZoning_C (all)', 'MSZoning_FV', 'MSZoning_RH',
+       'MSZoning_RL', 'MSZoning_RM', 'Street_Grvl', 'Street_Pave',
+       'LotShape_IR1', 'LotShape_IR2', 'LotShape_IR3', 'LotShape_Reg',
+       'LandContour_Bnk', 'LandContour_HLS', 'LandContour_Low',
+       'LandContour_Lvl', 'SaleType_COD', 'SaleType_CWD', 'SaleType_Con',
+       'SaleType_ConLD', 'SaleType_ConLI', 'SaleType_ConLw', 'SaleType_New',
+       'SaleType_Oth', 'SaleType_WD', 'SaleCondition_Abnorml',
+       'SaleCondition_AdjLand', 'SaleCondition_Alloca', 'SaleCondition_Family',
+       'SaleCondition_Normal', 'SaleCondition_Partial'],
+      dtype='object')
+scaler : MinMaxScaler()
+model : ElasticNet(alpha=0.1)
+R^2: 0.7291836621046495
+Adjusted R^2: 0.7163524501153506
+MAE: 25486.637743147487
+MSE: 1707981388.5644953
+RMSE: 41327.73147130744
+=========================
+used features: Index(['MoSold', 'YrSold', 'MSSubClass', 'LotFrontage', 'LotArea',
+       'OverallQual', 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'MasVnrArea',
+       'BsmtFinSF1', 'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF', '1stFlrSF',
+       '2ndFlrSF', 'LowQualFinSF', 'GrLivArea', 'BsmtFullBath', 'BsmtHalfBath',
+       'FullBath', 'HalfBath', 'BedroomAbvGr', 'KitchenAbvGr', 'TotRmsAbvGrd',
+       'Fireplaces', 'GarageYrBlt', 'GarageCars', 'GarageArea', 'WoodDeckSF',
+       'OpenPorchSF', 'EnclosedPorch', '3SsnPorch', 'ScreenPorch', 'PoolArea',
+       'MiscVal', 'MSZoning_C (all)', 'MSZoning_FV', 'MSZoning_RH',
+       'MSZoning_RL', 'MSZoning_RM', 'Street_Grvl', 'Street_Pave',
+       'LotShape_IR1', 'LotShape_IR2', 'LotShape_IR3', 'LotShape_Reg',
+       'LandContour_Bnk', 'LandContour_HLS', 'LandContour_Low',
+       'LandContour_Lvl', 'SaleType_COD', 'SaleType_CWD', 'SaleType_Con',
+       'SaleType_ConLD', 'SaleType_ConLI', 'SaleType_ConLw', 'SaleType_New',
+       'SaleType_Oth', 'SaleType_WD', 'SaleCondition_Abnorml',
+       'SaleCondition_AdjLand', 'SaleCondition_Alloca', 'SaleCondition_Family',
+       'SaleCondition_Normal', 'SaleCondition_Partial'],
+      dtype='object')
+scaler : MinMaxScaler()
+model : RandomForestRegressor(max_depth=9, oob_score=True, random_state=369)
+R^2: 0.9716637042403417
+Adjusted R^2: 0.9703211374635021
+MAE: 9394.478320517943
+MSE: 178711026.64809483
+RMSE: 13368.284356943295
+OOB Score: 0.8581047004590333
+=========================
+used features: Index(['MoSold', 'YrSold', 'MSSubClass', 'LotFrontage', 'LotArea',
+       'OverallQual', 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'MasVnrArea',
+       'BsmtFinSF1', 'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF', '1stFlrSF',
+       '2ndFlrSF', 'LowQualFinSF', 'GrLivArea', 'BsmtFullBath', 'BsmtHalfBath',
+       'FullBath', 'HalfBath', 'BedroomAbvGr', 'KitchenAbvGr', 'TotRmsAbvGrd',
+       'Fireplaces', 'GarageYrBlt', 'GarageCars', 'GarageArea', 'WoodDeckSF',
+       'OpenPorchSF', 'EnclosedPorch', '3SsnPorch', 'ScreenPorch', 'PoolArea',
+       'MiscVal', 'MSZoning_C (all)', 'MSZoning_FV', 'MSZoning_RH',
+       'MSZoning_RL', 'MSZoning_RM', 'Street_Grvl', 'Street_Pave',
+       'LotShape_IR1', 'LotShape_IR2', 'LotShape_IR3', 'LotShape_Reg',
+       'LandContour_Bnk', 'LandContour_HLS', 'LandContour_Low',
+       'LandContour_Lvl', 'SaleType_COD', 'SaleType_CWD', 'SaleType_Con',
+       'SaleType_ConLD', 'SaleType_ConLI', 'SaleType_ConLw', 'SaleType_New',
+       'SaleType_Oth', 'SaleType_WD', 'SaleCondition_Abnorml',
+       'SaleCondition_AdjLand', 'SaleCondition_Alloca', 'SaleCondition_Family',
+       'SaleCondition_Normal', 'SaleCondition_Partial'],
+      dtype='object')
+scaler : MinMaxScaler()
+model : RandomForestRegressor(max_depth=20, n_estimators=500, oob_score=True,
+                      random_state=369)
+R^2: 0.9819770642539937
+Adjusted R^2: 0.9811231419573415
+MAE: 6413.100270461258
+MSE: 113666845.43739681
+RMSE: 10661.465445115733
+OOB Score: 0.8668521568160741
+=========================
+used features: Index(['MoSold', 'YrSold', 'MSSubClass', 'LotFrontage', 'LotArea',
+       'OverallQual', 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'MasVnrArea',
+       'BsmtFinSF1', 'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF', '1stFlrSF',
+       '2ndFlrSF', 'LowQualFinSF', 'GrLivArea', 'BsmtFullBath', 'BsmtHalfBath',
+       'FullBath', 'HalfBath', 'BedroomAbvGr', 'KitchenAbvGr', 'TotRmsAbvGrd',
+       'Fireplaces', 'GarageYrBlt', 'GarageCars', 'GarageArea', 'WoodDeckSF',
+       'OpenPorchSF', 'EnclosedPorch', '3SsnPorch', 'ScreenPorch', 'PoolArea',
+       'MiscVal', 'MSZoning_C (all)', 'MSZoning_FV', 'MSZoning_RH',
+       'MSZoning_RL', 'MSZoning_RM', 'Street_Grvl', 'Street_Pave',
+       'LotShape_IR1', 'LotShape_IR2', 'LotShape_IR3', 'LotShape_Reg',
+       'LandContour_Bnk', 'LandContour_HLS', 'LandContour_Low',
+       'LandContour_Lvl', 'SaleType_COD', 'SaleType_CWD', 'SaleType_Con',
+       'SaleType_ConLD', 'SaleType_ConLI', 'SaleType_ConLw', 'SaleType_New',
+       'SaleType_Oth', 'SaleType_WD', 'SaleCondition_Abnorml',
+       'SaleCondition_AdjLand', 'SaleCondition_Alloca', 'SaleCondition_Family',
+       'SaleCondition_Normal', 'SaleCondition_Partial'],
+      dtype='object')
+scaler: MinMaxScaler()
+model: LinearRegression()
+R^2: 0.8276048783211662
+Adjusted R^2: 0.8194368395337986
+MAE: 20350.98082191781
+MSE: 1087259585.5739727
+RMSE: 32973.61954008041
+=========================
+used features: Index(['MoSold', 'YrSold', 'MSSubClass', 'LotFrontage', 'LotArea',
+       'OverallQual', 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'MasVnrArea',
+       'BsmtFinSF1', 'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF', '1stFlrSF',
+       '2ndFlrSF', 'LowQualFinSF', 'GrLivArea', 'BsmtFullBath', 'BsmtHalfBath',
+       'FullBath', 'HalfBath', 'BedroomAbvGr', 'KitchenAbvGr', 'TotRmsAbvGrd',
+       'Fireplaces', 'GarageYrBlt', 'GarageCars', 'GarageArea', 'WoodDeckSF',
+       'OpenPorchSF', 'EnclosedPorch', '3SsnPorch', 'ScreenPorch', 'PoolArea',
+       'MiscVal', 'MSZoning_C (all)', 'MSZoning_FV', 'MSZoning_RH',
+       'MSZoning_RL', 'MSZoning_RM', 'Street_Grvl', 'Street_Pave',
+       'LotShape_IR1', 'LotShape_IR2', 'LotShape_IR3', 'LotShape_Reg',
+       'LandContour_Bnk', 'LandContour_HLS', 'LandContour_Low',
+       'LandContour_Lvl', 'SaleType_COD', 'SaleType_CWD', 'SaleType_Con',
+       'SaleType_ConLD', 'SaleType_ConLI', 'SaleType_ConLw', 'SaleType_New',
+       'SaleType_Oth', 'SaleType_WD', 'SaleCondition_Abnorml',
+       'SaleCondition_AdjLand', 'SaleCondition_Alloca', 'SaleCondition_Family',
+       'SaleCondition_Normal', 'SaleCondition_Partial'],
+      dtype='object')
+scaler : MinMaxScaler()
+model : RandomForestRegressor(max_depth=15, max_features='sqrt', n_estimators=1000,
+                      oob_score=True, random_state=1004)
+R^2: 0.9803785963924672
+Adjusted R^2: 0.979448939078686
+MAE: 6642.0709647773665
+MSE: 123748044.30051968
+RMSE: 11124.209828141487
+OOB Score: 0.8636308028681503
+=========================
